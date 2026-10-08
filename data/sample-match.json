@@ -1,0 +1,59 @@
+[
+  {
+    "round": 3,
+    "side": "defense",
+    "map": "Ascent",
+    "timeLeft": 52,
+    "me": { "agent": "Sova", "alive": true, "position": "A サイト" },
+    "alive": { "allies": 5, "enemies": 5 },
+    "allies": [
+      { "agent": "Killjoy", "position": "B サイト" },
+      { "agent": "Omen", "position": "ミッド" },
+      { "agent": "Jett", "position": "A メイン" },
+      { "agent": "Skye", "position": "B メイン寄り" }
+    ],
+    "enemiesSeen": [{ "position": "B メイン", "secondsAgo": 4 }, { "position": "B メイン", "secondsAgo": 4 }, { "position": "B メイン", "secondsAgo": 3 }],
+    "spike": { "state": "carried" },
+    "economy": { "team": "full", "enemy": "full" },
+    "rotateTo": "B",
+    "whatIDid": "A に残った",
+    "outcome": "lost",
+    "myAnswer": { "rotate": true }
+  },
+  {
+    "round": 7,
+    "side": "defense",
+    "map": "Ascent",
+    "timeLeft": 30,
+    "me": { "agent": "Sova", "alive": true, "position": "ミッド" },
+    "alive": { "allies": 3, "enemies": 4 },
+    "allies": [{ "agent": "Killjoy", "position": "B サイト" }, { "agent": "Jett", "position": "A サイト" }],
+    "enemiesSeen": [],
+    "spike": { "state": "planted", "site": "B" },
+    "economy": { "team": "half", "enemy": "full" },
+    "rotateTo": "B",
+    "whatIDid": "B にリテイク",
+    "outcome": "lost"
+  },
+  {
+    "round": 9,
+    "side": "defense",
+    "map": "Ascent",
+    "timeLeft": 70,
+    "me": { "agent": "Sova", "alive": true, "position": "A サイト" },
+    "alive": { "allies": 5, "enemies": 5 },
+    "allies": [
+      { "agent": "Killjoy", "position": "B サイト" },
+      { "agent": "Omen", "position": "ミッド" },
+      { "agent": "Jett", "position": "A メイン" },
+      { "agent": "Skye", "position": "B メイン寄り" }
+    ],
+    "enemiesSeen": [{ "position": "B メイン", "secondsAgo": 1 }],
+    "spike": { "state": "carried" },
+    "economy": { "team": "full", "enemy": "full" },
+    "rotateTo": "B",
+    "whatIDid": "B に寄った（A に来られた）",
+    "outcome": "lost",
+    "myAnswer": { "rotate": false }
+  }
+]

@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.local
+# 自分の試合データは各自の手元に置く（サンプルだけ共有）
+data/*
+!data/sample-match.json
